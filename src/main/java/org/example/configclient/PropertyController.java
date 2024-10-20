@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class PropertyController {
 
-    @Value("${some.key}")
+    @Value("${ldap.ab.url}")
     private String myKey;
 
     @GetMapping
